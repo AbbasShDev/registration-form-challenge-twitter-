@@ -1,0 +1,304 @@
+
+body{
+    background: #A2AAB5;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.row{
+
+    justify-content: center;
+    color: black;
+}
+
+#user-img{
+    padding-top: 80px;
+    color: white;
+}
+
+.pairingInfo{
+    font-size: 12px;
+    color: #A2AAB5;
+}
+
+.enterIcon{
+
+    width: 30px;
+    height: 30px;
+}
+
+.leftDiv{
+    text-align: center;
+    justify-content: center;
+    background: #3F4459;
+    height: 450px;
+    color: white;
+}
+.rightDiv{
+    text-align: center;
+    background: white;
+    color: #3F4459;
+    height: 450px;
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 60px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/maleNotSelected.png");
+    background-size: contain;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-image: url("images/maleSelected.png");
+  }
+
+  .switch2 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 40px;
+    
+  }
+  
+  .switch2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/femaleNotSelected.png");
+    background-size: contain;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding-right: 20px;
+  }
+  input:checked + .slider2 {
+    background-image: url("images/femaleSelected.png");
+  }
+  .switch3 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 60px;
+    
+  }
+  
+  .switch3 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider3 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/membershipNotSelect.png");
+    background-size: contain;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding-right: 20px;
+  }
+  input:checked + .slider3 {
+    background-image: url("images/membershipSelect.png");
+  }
+
+  .switch4 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 40px;
+  }
+  
+  .switch4 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider4 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/membershipNotSelect.png");
+    background-size: contain;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider4 {
+    background-image: url("images/membershipSelect.png");
+  }
+  .switch5 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-left: 40px;
+  }
+  
+  .switch5 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider5 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("images/membershipNotSelect.png");
+    background-size: contain;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider5 {
+    background-image: url("images/membershipSelect.png");
+  }
+  .boxIcon{
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+}
+  
+  .inputs{
+      padding: 2%;
+      text-align: left;
+      padding-left: 5%;
+  }
+  .inputFileds{
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #f2f3f7;
+  }
+  .inputFileds::placeholder{
+      font-size: 14px;
+      color: #A2AAB5;
+  }
+ 
+  input[type=date]:invalid::-webkit-datetime-edit {
+    color: #A2AAB5;
+    font-size: 14px;
+}
+  
+  .ginderTitle{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 75%;
+    bottom: 0;
+  }
+  .MembershipTitle{
+    position: absolute;
+    top: 345px;
+    left: 0;
+    right: 350px;
+    bottom: 0;
+  }
+  .buttonsContainer{
+      padding-left: 80px;
+  }
+ 
+  .cancelBtn{
+      background: #f2f3f7;
+      border: none;
+      color: #3F4459;
+      font-size: 12px;
+      margin-right: 10px; 
+      width: 100px;
+      height: 30px;
+      border-radius: 7px;
+      
+    }
+    .cancelBtn:hover{
+        transition: 0.5s;
+        background: #3F4459;
+        border: none;
+        color: white;
+    }
+    .cancelBtn:focus{
+        outline: none;
+        border: 1px solid #857D91;; 
+    }
+   
+      .saveBtn{
+        background: #3F4459;
+        border: none;
+        color: #f2f3f7;
+        font-size: 12px;
+        margin-left: 10px; 
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        
+      }
+      .saveBtn:hover{
+          transition: 0.5s;
+          background: #f2f3f7;
+          border: none;
+          color: #3F4459;
+      }
+      .saveBtn:focus{
+          outline: none;
+          border: 1px solid #857D91;;
+          background: #f2f3f7; 
+          color: #3F4459;
+      }
+
+      a{
+        color: #3F4459; 
+      }
+
+
